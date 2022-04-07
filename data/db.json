@@ -1,0 +1,36 @@
+{
+  "contacts": [
+    {
+      "firstName": "Mark123",
+      "lastName": "H",
+      "idEmployee": "sadfDDDDDD",
+      "email": "fghfdghgfh",
+      "salary": "23452345",
+      "id": 1
+    },
+    {
+      "firstName": "asdf",
+      "lastName": "H",
+      "idEmployee": "sadf",
+      "email": "fghfdghgfh",
+      "salary": "123",
+      "id": 2
+    },
+    {
+      "firstName": "12342",
+      "lastName": "234",
+      "idEmployee": "1234",
+      "email": "234213",
+      "salary": "1234",
+      "id": 3
+    },
+    {
+      "firstName": "H",
+      "lastName": "H",
+      "idEmployee": "123",
+      "email": "hezireuveny93@gmail.com",
+      "salary": "23452345",
+      "id": 4
+    }
+  ]
+}

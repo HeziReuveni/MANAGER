@@ -1,0 +1,135 @@
+.info-list{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.info-list input{
+    width: 50%;
+   border: 10px solid rgb(145, 145, 145);
+   border-radius: 6px;
+   background-color: rgb(145, 145, 145);
+   font-family: 'JetBrains Mono', monospace;
+}
+
+#alert-massage-list{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.list-event{
+    text-align: center;
+    margin: 0 auto;
+}
+.list-item{
+    width: 60%;
+    text-align: left;
+    margin: 0 auto;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 3px;
+}
+
+.list-item li{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.list-item p{
+    font-family: 'JetBrains Mono', monospace;
+    text-align: left;
+    color: rgb(39, 39, 39);
+    margin: 0 auto;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.back-list{
+    background-color: aqua;
+}
+
+.button-edit{
+    margin: 4px;
+    background-color:rgb(218, 218, 218);
+    border: 2px solid rgb(218, 218, 218);
+    border-radius: 6px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(100, 100, 255);
+    font-size: 22px;
+
+}
+
+.button-delete{
+    margin: 4px;
+    background-color:rgb(218, 218, 218);
+    border: 2px solid rgb(218, 218, 218);
+    border-radius: 6px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(255, 65, 65);
+    font-size: 22px;
+
+}
+
+.button-edit:hover{
+    box-shadow: 1px 2px 3px rgb(104, 104, 104);
+    background-color: rgb(79, 79, 255);
+    color:rgb(255, 255, 255);
+    border: 2px solid rgb(79, 79, 255);
+}
+
+.button-delete:hover{
+    box-shadow: 1px 2px 3px rgb(104, 104, 104);
+    background-color: rgb(255, 65, 65);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 65, 65);
+}
+
+.button-save{
+    margin: 4px;
+    background-color:rgb(218, 218, 218);
+    border: 2px solid rgb(218, 218, 218);
+    border-radius: 6px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(0, 163, 41);
+    font-size: 22px;
+}
+
+.button-save:hover{
+    box-shadow: 1px 2px 3px rgb(104, 104, 104);
+    background-color: rgb(0, 163, 41);
+    border: 2px solid rgb(0, 163, 41);
+    color: rgb(255, 255, 255);
+}
+
+.save-form{
+    /* מסדר את האובייקטים בשורה בצורה יפה ובאותו הגובה */
+    display:inline-flex
+}
+
+.save-form input{
+    border: 6px solid rgb(145, 145, 145);
+    border-radius: 12px;
+    background-color: rgb(145, 145, 145);
+}
+
+.home-button{
+    background-color: #78e4ff;
+    position: fixed;
+    top: 5vh;
+    right:0vw;
+    width: 7vw;
+    text-align: left;
+    padding: 6px 6px;
+    background-color: rgb(255, 89, 89);
+    border: 0ch;
+    border-radius: 8px;
+    box-shadow: 1px 2px 3px rgb(95, 95, 95);
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.home-button:hover{
+    background-color: rgb(31, 185, 0);
+}

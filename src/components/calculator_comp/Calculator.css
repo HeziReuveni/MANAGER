@@ -1,0 +1,218 @@
+.calculator{
+   height: 100vh;
+   width: 100%;
+   position: absolute;
+   background-color: rgba(0, 0, 0, 0.4);
+  
+}
+
+
+.calculator:before{
+   content: '';
+   background: url('./views_images/back-calculator.jpg') no-repeat center center/cover;
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: -1;
+}
+
+.content-calculate{
+   display: flex;
+   justify-content: space-between;
+}
+
+.calculator h2{
+      font-family: 'Spartan', sans-serif;
+      text-align: center;
+      padding: 30px;
+      font-size: 50px;
+      background-color: rgba(88, 180, 255, 0.4);
+      color: aliceblue;
+      width: 40%;
+      margin: 0 auto;
+}
+
+
+.calculator form{
+   font-family: 'Open Sans', sans-serif;
+   text-align: center;
+   font-size: 20px;
+   padding: 2px;
+   background-color: rgba(88, 180, 255, 0.4);
+   color: aliceblue;
+   width: 25%;
+   height: 54.5vh;
+   display:block;
+   border-radius:30px;
+   margin-left:3%;
+   margin-top: 100px;
+}
+
+
+.calculator form label{
+   font-family: 'Noto Sans', sans-serif;
+   font-size: 80%;
+   background-color: rgb(0, 162, 255);
+   height: 60px;
+   width: 30%;
+   margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(58, 58, 58);
+  border-top: solid 12px rgb(58, 58, 58);
+  border-radius: 30px;
+  box-shadow: 2px 4px 6px rgb(80, 80, 80);
+}
+
+#button-id-calculate{
+   color: rgb(58, 58, 58);
+   font-family: 'Noto Sans', sans-serif;
+   font-size: 80%;
+   background-color: rgb(0, 162, 255);
+   border: 0px solid rgb(0, 162, 255);
+   border-top: solid 12px rgb(58, 58, 58);
+   border-radius: 30px;
+   margin-top: 12px;
+   width: 45%;
+   height: 60px;
+}
+
+#button-id-calculate:hover{
+   box-shadow: 2px 4px 6px rgb(80, 80, 80);
+   color: rgb(0, 162, 255);
+   border-top: solid 12px rgb(0, 162, 255);
+   background-color: rgb(58, 58, 58);
+}
+
+
+.calculator form label{
+margin-top: 10px;
+width: 45%;
+}
+
+.content-calculate img{
+   margin-top: 230px;
+}
+
+#input-form-id, .calculator select{
+   width: 70%;
+   border-radius: 30px;
+   border: 0ch;
+   font-size: 16px;
+   background-color: rgb(112, 203, 255);
+   color: rgb(0, 0, 0);
+   height: 5vh;
+}
+
+
+#input-form-id:hover, .calculator select:hover{
+   background-color: rgb(151, 217, 255);
+}
+
+
+#form-car{
+   position: relative;
+   bottom: 104.5%;
+   left: 381px;
+}
+
+#form-car form{
+   height: 193px;
+   width: 80%;
+}
+
+#form-car form label{
+   width: 55%;
+}
+
+#form-car form button{
+   width: 55%;
+}
+
+#form-car form input{
+   width: 80%;
+   border-radius: 30px;
+   border: 0ch;
+   font-size: 16px;
+   background-color: rgb(112, 203, 255);
+   color: rgb(0, 0, 0);
+   height: 5vh;
+}
+
+#form-car form input:hover{
+   background-color: rgb(151, 217, 255);
+}
+
+.result{
+   font-family: 'Open Sans', sans-serif;
+   text-align: center;
+   font-size: 20px;
+   padding: 12px 70px;
+   background-color: rgba(88, 180, 255, 0.4);
+   color: aliceblue;
+   width: 20%;
+   height: 27.5vh;
+   border-radius:30px;
+   margin-left:28.7%;
+   position: relative;
+   bottom: 207px;
+   display:grid;
+   align-items: center;
+   justify-content: center;
+}
+
+.result p{
+   color: rgb(58, 58, 58);
+   font-family: 'Noto Sans', sans-serif;
+   font-size: 85%;
+   background-color: rgb(0, 162, 255);
+   border: 0px solid rgb(0, 162, 255);
+   border-top: solid 12px rgb(58, 58, 58);
+   border-radius: 30px;
+   width: 230px;
+   height: 58px;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+
+}
+
+
+.text-info-label{
+   position:fixed;
+   left: 40px;
+   top: 50px;
+   width: 400px;
+   background-color: rgb(75, 75, 75, 0.6);
+   border-radius: 30px;
+}
+
+.text-info-label p{
+   font-size: 14px;
+   text-align: center;
+   padding: 12px;
+   margin-top: 12px;
+   font-family: 'JetBrains Mono', monospace;
+
+}
+
+#text-info-label-car{
+   position:fixed;
+   left: 40px;
+   top: 71px;
+   width: 400px;
+   background-color: rgb(75, 75, 75, 0.6);
+   border-radius: 30px;
+}
+
+#text-info-label-car p{
+   font-size: 14px;
+   text-align: center;
+   padding: 12px;
+   margin-top: 12px;
+   font-family: 'JetBrains Mono', monospace;
+}

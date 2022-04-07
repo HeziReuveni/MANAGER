@@ -1,0 +1,259 @@
+.container-search-input{
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 40px; */
+    height: 40px;
+}
+
+.back-table{
+    background-color: bisque;
+    min-height: 100vh;
+}
+
+
+.back-up{
+    height: 60px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.back-up button{
+    margin-top: 25px;
+}
+
+#right-button-search{
+    background-color: rgb(0, 148, 62);
+    border: 0ch;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#right-button-search:hover{
+    background-color: rgb(0, 110, 46);
+    box-shadow: 1px 2px 3px gray;
+}
+
+textarea:focus, input:focus {
+    color: #ffffff;
+    resize: none;
+    outline: none;
+}
+
+
+#left-button-add{
+    margin-left: 10px;
+    background-color: rgb(255, 46, 46);
+    border: 0ch;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#left-button-add:hover{
+    background-color: rgb(228, 1, 1);
+    box-shadow: 1px 2px 3px gray;
+}
+
+
+
+.container-search-input input{
+    width: 400px;
+    max-height: 100px;
+    border: 4px solid rgb(226, 226, 226);
+    border-radius: 12px;
+    background-color: rgb(226, 226, 226);
+    margin-left: 20px;
+}
+
+.search-button{
+    padding: 4px 8px;
+    border-radius: 6px;
+    background: linear-gradient(45deg, rgb(61, 196, 68), rgb(61, 196, 68), rgb(0, 148, 57));
+    border: 0ch;
+    color: rgb(61, 61, 61);
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.search-button:hover{
+    color: aliceblue;
+    box-shadow: 1px 2px 3px rgb(88, 88, 88);
+    background-color: rgb(0, 194, 0);
+    border: 0ch;
+}
+
+.table{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  .table th, td{
+      color: rgb(235, 235, 235);
+  }
+  
+  .search-input{
+      width: 40%;
+  }
+
+
+  .form-add{
+      display: grid;
+     width: 1050px;
+     margin-left: 400px;
+     margin: 0 auto;
+     width: 90%;
+  }
+
+  .form-add input{
+    border: 4px solid rgb(83, 83, 83);
+    border-radius: 12px;
+    background-color: rgb(83, 83, 83);
+    margin: 4px;
+  }
+
+  .form-add button{
+    background-color: rgb(83, 83, 83);
+    border: 2px solid rgb(83, 83, 83);
+    color: rgb(236, 236, 236);
+    border-radius: 4px;
+    margin-right: 5px;
+  }
+
+  .form-add button:hover{
+    color: rgb(0, 202, 17);
+     box-shadow: 1px 2px 3px rgb(131, 131, 131);
+
+  }
+
+  .button-edit-table{
+    background-color: rgb(94, 182, 255);
+    border: 0ch;
+    color: rgb(0, 0, 0);
+    font-family: 'Oswald', sans-serif;
+    padding: 2px 8px;
+    font-size: 20px;
+    border-radius: 6px;
+  }
+
+.button-delete-table{
+    background-color: rgb(94, 182, 255);
+    border: 0ch;
+    color: rgb(0, 0, 0);
+    font-family: 'Oswald', sans-serif;
+    padding: 2px 4px;
+    font-size: 16px;
+    margin-left: 6px;
+    font-size: 20px;
+    border-radius: 6px;
+}
+
+.buttons-table, 
+.container-buttons-edit{
+    text-align: right;
+}
+
+.button-delete-table:hover{
+color: rgb(255, 0, 0);
+}
+
+.button-edit-table:hover, .button-save-table:hover{
+    color: aliceblue;
+}
+
+.button-save-table{
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: linear-gradient(45deg, rgb(61, 196, 68), rgb(61, 196, 68), rgb(0, 148, 57));
+    border: 0ch;
+    color: rgb(61, 61, 61);
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+
+.button-cancel-table{
+    padding: 2px 4px;
+    border-radius: 6px;
+    background-color: rgb(192, 192, 192);
+    border: 0ch;
+    color: rgb(61, 61, 61);
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    margin-left: 6px;
+}
+
+.button-cancel-table:hover{
+    color: rgb(255, 50, 50);
+}
+
+.row-input-edit input{
+    border: 4px solid rgb(226, 226, 226);
+    border-radius: 12px;
+    background-color: rgb(226, 226, 226);
+}
+
+
+.container-delete-form{
+    height: 70px;
+    margin-bottom: 12px;
+    text-align: center;
+    position: fixed;
+    top: 50vh;
+    left: 37.5vw;
+}
+
+
+.delete-form{
+    border: 2px solid rgb(255, 78, 78);
+    background-color:rgb(255, 78, 78);
+    border-radius: 8px;
+    /* margin-left: 550px; */
+    width: 25vw;
+    height: 80px;
+    box-shadow: 1px 2px 3px rgb(94, 94, 94);
+}
+
+.delete-form h5{
+    margin-top: 4px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(73, 73, 73);
+}
+
+.delete-form button{
+    border-radius: 6px;
+    padding: 2px 6px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(53, 53, 53);
+    font-size: 20px;
+    margin-top: -2px;
+    background-color: rgb(194, 194, 194);
+    border: 0ch;
+    margin-right: 5px;
+}
+
+.delete-form button:hover{
+    color: red;
+    box-shadow: 1px 2px 3px rgb(94, 94, 94);
+}
+
+
+#input-search-form{
+   width: 395px;
+   margin-top: 10px;
+}
+
+#table-form-margin{
+    margin-top: 5px;
+}
+
+#icon-cancel{
+    margin-bottom: 4px;
+}
